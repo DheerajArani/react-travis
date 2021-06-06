@@ -6,4 +6,4 @@ before install:
  - docker build -t dheerajarani/react-travis -f Dockerfile.dev .
 
 script:
- - doccker run dheerajarani/react-travis npm run test -- --coverage
+ - docker run dheerajarani/react-travis npm run test -- --coverage
